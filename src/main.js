@@ -14,6 +14,8 @@ const app = createApp(App);
 // app.component('AppCard', AppCard);
 
 // 3. 마운트
+app.provide('app-message', 'root message 입니다.');
+app.config.globalProperties.msg = 'hello';
 app.mount('#app');
 
 import 'bootstrap/dist/js/bootstrap.js';

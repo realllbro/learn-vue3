@@ -9,6 +9,7 @@ module.exports = {
 		'@vue/eslint-config-prettier',
 	],
 	env: {
+		//매크로 함수 허용옵션 defineProps, defineEmits, defineExpose
 		'vue/setup-compiler-macros': true,
 	},
 	rules: {
