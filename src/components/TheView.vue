@@ -1,13 +1,13 @@
 <template>
 	<div>
 		<main>
-			<ScriptSetup></ScriptSetup>
+			<DynamicComponent></DynamicComponent>
 		</main>
 	</div>
 </template>
 
 <script setup>
-import ScriptSetup from '@/components/ScriptSetup.vue';
+import DynamicComponent from '@/components/DynamicComponent.vue';
 </script>
 
 <style lang="scss" scoped></style>
